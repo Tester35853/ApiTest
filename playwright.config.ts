@@ -39,6 +39,10 @@ export default defineConfig({
   projects: [
     { name: 'setup', testMatch: 'auth.setup.ts'},
     {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
       name: 'articleSetup',
       testMatch: 'newArticle.setup.ts',
       dependencies: ['setup'],
