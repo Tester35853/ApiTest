@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "has title": "npx playwright test workingWithAPI.spec.ts --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
