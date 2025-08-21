@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "ng serve",
+    "test": "playwright test",
     "has title": "npx playwright test workingWithAPI.spec.ts --project=chromium"
   },
   "keywords": [],
