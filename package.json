@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ng serve",
     "test": "playwright test",
-    "has title": "npx playwright test workingWithAPI.spec.ts --project=chromium"
+    "hasTitle": "npx playwright test workingWithAPI.spec.ts --project=chromium"
   },
   "keywords": [],
   "author": "",
